@@ -1,17 +1,25 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>DT TEST</h1>
-    <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit ante metus, in iaculis justo semper in. Donec dapibus varius metus, non rhoncus orci lobortis quis. Aenean lobortis purus mauris, sed venenatis ipsum mattis et. Morbi augue erat, dictum non bibendum semper, congue ac lectus. Nullam vitae ipsum felis. Integer ullamcorper ipsum enim, et interdum ligula tincidunt non. Pellentesque iaculis iaculis sem, at vestibulum nisi iaculis vel. Donec lectus odio, placerat in ipsum non, ornare cursus sapien. Quisque a dui at nunc varius pulvinar. Proin molestie tristique dignissim. Donec at neque elementum dolor efficitur cursus. Quisque ac consequat justo. Fusce feugiat nisi fermentum velit condimentum, a hendrerit quam dictum. Fusce nec tincidunt augue. Morbi semper nulla eu auctor pulvinar. Nam a accumsan leo. </p>
-    <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit ante metus, in iaculis justo semper in. Donec dapibus varius metus, non rhoncus orci lobortis quis. Aenean lobortis purus mauris, sed venenatis ipsum mattis et. Morbi augue erat, dictum non bibendum semper, congue ac lectus. Nullam vitae ipsum felis. Integer ullamcorper ipsum enim, et interdum ligula tincidunt non. Pellentesque iaculis iaculis sem, at vestibulum nisi iaculis vel. Donec lectus odio, placerat in ipsum non, ornare cursus sapien. Quisque a dui at nunc varius pulvinar. Proin molestie tristique dignissim. Donec at neque elementum dolor efficitur cursus. Quisque ac consequat justo. Fusce feugiat nisi fermentum velit condimentum, a hendrerit quam dictum. Fusce nec tincidunt augue. Morbi semper nulla eu auctor pulvinar. Nam a accumsan leo. </p>
-    <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit ante metus, in iaculis justo semper in. Donec dapibus varius metus, non rhoncus orci lobortis quis. Aenean lobortis purus mauris, sed venenatis ipsum mattis et. Morbi augue erat, dictum non bibendum semper, congue ac lectus. Nullam vitae ipsum felis. Integer ullamcorper ipsum enim, et interdum ligula tincidunt non. Pellentesque iaculis iaculis sem, at vestibulum nisi iaculis vel. Donec lectus odio, placerat in ipsum non, ornare cursus sapien. Quisque a dui at nunc varius pulvinar. Proin molestie tristique dignissim. Donec at neque elementum dolor efficitur cursus. Quisque ac consequat justo. Fusce feugiat nisi fermentum velit condimentum, a hendrerit quam dictum. Fusce nec tincidunt augue. Morbi semper nulla eu auctor pulvinar. Nam a accumsan leo. </p>
-    <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit ante metus, in iaculis justo semper in. Donec dapibus varius metus, non rhoncus orci lobortis quis. Aenean lobortis purus mauris, sed venenatis ipsum mattis et. Morbi augue erat, dictum non bibendum semper, congue ac lectus. Nullam vitae ipsum felis. Integer ullamcorper ipsum enim, et interdum ligula tincidunt non. Pellentesque iaculis iaculis sem, at vestibulum nisi iaculis vel. Donec lectus odio, placerat in ipsum non, ornare cursus sapien. Quisque a dui at nunc varius pulvinar. Proin molestie tristique dignissim. Donec at neque elementum dolor efficitur cursus. Quisque ac consequat justo. Fusce feugiat nisi fermentum velit condimentum, a hendrerit quam dictum. Fusce nec tincidunt augue. Morbi semper nulla eu auctor pulvinar. Nam a accumsan leo. </p>
-    <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit ante metus, in iaculis justo semper in. Donec dapibus varius metus, non rhoncus orci lobortis quis. Aenean lobortis purus mauris, sed venenatis ipsum mattis et. Morbi augue erat, dictum non bibendum semper, congue ac lectus. Nullam vitae ipsum felis. Integer ullamcorper ipsum enim, et interdum ligula tincidunt non. Pellentesque iaculis iaculis sem, at vestibulum nisi iaculis vel. Donec lectus odio, placerat in ipsum non, ornare cursus sapien. Quisque a dui at nunc varius pulvinar. Proin molestie tristique dignissim. Donec at neque elementum dolor efficitur cursus. Quisque ac consequat justo. Fusce feugiat nisi fermentum velit condimentum, a hendrerit quam dictum. Fusce nec tincidunt augue. Morbi semper nulla eu auctor pulvinar. Nam a accumsan leo. </p>
-    <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit ante metus, in iaculis justo semper in. Donec dapibus varius metus, non rhoncus orci lobortis quis. Aenean lobortis purus mauris, sed venenatis ipsum mattis et. Morbi augue erat, dictum non bibendum semper, congue ac lectus. Nullam vitae ipsum felis. Integer ullamcorper ipsum enim, et interdum ligula tincidunt non. Pellentesque iaculis iaculis sem, at vestibulum nisi iaculis vel. Donec lectus odio, placerat in ipsum non, ornare cursus sapien. Quisque a dui at nunc varius pulvinar. Proin molestie tristique dignissim. Donec at neque elementum dolor efficitur cursus. Quisque ac consequat justo. Fusce feugiat nisi fermentum velit condimentum, a hendrerit quam dictum. Fusce nec tincidunt augue. Morbi semper nulla eu auctor pulvinar. Nam a accumsan leo. </p>
-</body>
+<!DOCTYPE html>
+<html>
+  <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+  <!-- we import arjs version without NFT but with marker + location based support -->
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+      <a-marker preset="hiro">
+        <!-- we use cors proxy to avoid cross-origin problems -->
+        <!--
+          ⚠️⚠️⚠️
+          https://arjs-cors-proxy.herokuapp.com/ is now offline, Heroku has dismissed all his free plans from November 2022.
+          You need to host your own proxy and use it instead. The proxy is based on CORS Anywhere (see https://github.com/Rob--W/cors-anywhere).
+          ⚠️⚠️⚠️
+        -->
+        <a-entity
+          position="0 0 0"
+          scale="0.05 0.05 0.05"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
+        ></a-entity>
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
 </html>
